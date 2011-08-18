@@ -1,0 +1,21 @@
+= Sunrise Widgets
+
+== Install
+
+  rails generate sunrise:widgets:install
+  
+  rake db:migrate
+
+== Usage
+
+  class Structure < ActiveRecord::Base
+    has_many :widgets, :dependent => :delete_all
+  end
+
+  manage_widgets_path
+
+== Test
+
+  rake spec
+
+Copyright (c) 2011 Aimbulance, released under the MIT license

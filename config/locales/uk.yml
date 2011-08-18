@@ -1,0 +1,18 @@
+uk:
+  manage:
+    plugins:
+      widgets: "Widgets"
+      
+    menu:
+      widgets: "Widgets"
+    
+  activerecord:
+    attributes:
+      widget:
+        title: "Назва"
+        content: "Зміст"
+        sort_order: "Сортування"
+        is_visible: "Відображати?"
+        structure_id: "Категорія"
+        widget_type_id: "Тип"
+        widget_position_id: "Позиція"

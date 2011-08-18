@@ -1,0 +1,18 @@
+ru:
+  manage:
+    plugins:
+      widgets: "Widgets"
+      
+    menu:
+      widgets: "Widgets"
+    
+  activerecord:
+    attributes:
+      widget:
+        title: "Название"
+        content: "Содержание"
+        sort_order: "Сортировка"
+        is_visible: "Отображать?"
+        structure_id: "Категория"
+        widget_type_id: "Тип"
+        widget_position_id: "Позиция"

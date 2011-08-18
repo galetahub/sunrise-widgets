@@ -1,0 +1,21 @@
+<%= manage_form_for @widget do |f| %> 
+  <div class="edit-cont">
+    <div class="inputs-bl">
+      <%= f.input :title, :input_html => { :class => 'text name' } %>
+              
+      <%= f.input :structure_id, :collection => nested_set_options(Structure) {|i| "#{'–' * i.depth} #{i.title}"} %>
+      
+      <%= f.input :sort_order %>
+                      
+      <%= f.input :widget_type_id, :collection => WidgetType.all %>
+      
+      <%= f.input :widget_position_id, :collection => WidgetPosition.all %>
+                              
+      <%= f.ckeditor :content, :input_html => options_for_ckeditor %>
+              
+      <div class="radio-bl"><%= f.input :is_visible %></div>
+    </div>
+  </div>
+  
+  <%= f.button :submit %>
+<% end %>
