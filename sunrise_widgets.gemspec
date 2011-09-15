@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY 
   s.summary = "Widgets plugin for sunrise-cms"
   s.description = "Widgets plugin for Sunrise CMS via aimbulance"
-  s.authors = ["Igor Galeta"]
+  s.authors = ["Igor Galeta", "Pavel Galeta"]
   s.email = "galeta.igor@gmail.com"
   s.rubyforge_project = "sunrise-widgets"
   s.homepage = "https://github.com/galetahub/sunrise-widgets"
@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.rdoc"]
   s.require_paths = ["lib"]
   
-  s.add_dependency("sunrise-cms", ">= 0.1.5")
+  s.add_dependency("sunrise-cms", ">= 0.2.0")
 end

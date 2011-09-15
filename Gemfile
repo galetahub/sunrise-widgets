@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 gemspec
 
-gem "rails", "3.0.9"
+gem "rails", "3.0.10"
 gem "capybara", ">= 0.4.0"
 gem "sqlite3"
 
@@ -23,6 +23,7 @@ gem 'simple_form'
 gem 'awesome_nested_set'
 gem 'fastercsv'
 gem 'ckeditor'
+gem "has_scope"
 
 gem 'galetahub-enum_field', '~> 0.1.4', :require => 'enum_field'
 gem 'galetahub-salty_slugs', '~> 1.0.0', :require => 'salty_slugs'
